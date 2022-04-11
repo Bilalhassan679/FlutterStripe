@@ -19,3 +19,14 @@ Web (Experimental)
 Now you can use Stripe with Flutter web! Notice right now it is highly experimental and only a subset of features is implemented.
 
 Check the steps needed here
+
+
+
+
+
+/////////////////////////////////////////
+Follow this link 
+https://github.com/flutter-stripe/flutter_stripe#android
+Follow this video 
+https://www.youtube.com/watch?v=-g46zHs3WkQ&t=8s
+//////////////////////////////////////////
