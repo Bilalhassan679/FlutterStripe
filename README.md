@@ -1,16 +1,21 @@
-# flutterstripe
+Requirements
+Android
+This plugin requires several changes to be able to work on Android devices. Please make sure you follow all these steps:
 
-A new Flutter project.
+Use Android 5.0 (API level 21) and above
+Use Kotlin version 1.5.0 and above: example
+Using a descendant of Theme.AppCompat for your activity: example, example night theme
+Using an up-to-date Android gradle build tools version: example and an up-to-date gradle version accordingly: example
+Using FlutterFragmentActivity instead of FlutterActivity in MainActivity.kt: example
+Rebuild the app, as the above changes don't update with hot reload
+These changes are needed because the Android Stripe SDK requires the use of the AppCompat theme for their UI components and the Support Fragment Manager for the Payment Sheets
 
-## Getting Started
+If you are having troubles to make this package to work on Android, join this discussion to get some support
 
-This project is a starting point for a Flutter application.
+iOS
+Compatible with apps targeting iOS 11 or above.
 
-A few resources to get you started if this is your first Flutter project:
+Web (Experimental)
+Now you can use Stripe with Flutter web! Notice right now it is highly experimental and only a subset of features is implemented.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check the steps needed here
